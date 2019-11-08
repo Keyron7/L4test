@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        ArrayDeque<? super Student> arrayDeque = new ArrayDeque<>();
+        ArrayDeque<Person> arrayDeque = new ArrayDeque<>();
         arrayDeque.addHead(new Student("A",5));
         arrayDeque.addHead(new Student("B",2));
         arrayDeque.addTail(new Student("C",3));
@@ -16,7 +16,7 @@ public class Main {
         System.out.println(arrayDeque.minimum());
         System.out.println(arrayDeque.middle());
         arrayDeque.printAll();
-//        arrayDeque.addOneElement(new Person("jjk",17));
+        arrayDeque.addOneElement(new Person("jjk",17));
 
     }
 
