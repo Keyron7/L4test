@@ -126,8 +126,8 @@ class ArrayDeque<T extends Comparable<? super T>>{
             System.out.println(getArray(i));
         }
     }
-//    public void addOneElement(T a){
-//        addTail(a);
-//    }
+    public void addOneElement(T a){
+        addTail(a);
+    }
 
 }
